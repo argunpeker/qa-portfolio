@@ -1,1 +1,36 @@
+## Bug-01
 
+**Title:** Error message persists after entering a valid email on login page
+
+**Environment:**
+- Browser: Google Chrome 143.0.7499.194
+- OS: macOS
+
+**Precondition:**
+- User is on the Trendyol login page
+
+**Steps to Reproduce:**
+1. Enter an invalid email address (e.g. "test@gmail")
+2. Click on the "Devam Et" button
+3. Enter a valid email address (e.g. "validuser@gmail.com")
+4. Click on the "Devam Et" button
+
+**Actual Result:**
+- Error message remains displayed after entering a valid email, preventing the user from continuing
+
+
+**Expected Result:**
+- User should be able to continue after entering a valid email without receiving an error message
+
+**Test Data:**
+- Invalid email address (e.g. "test@gmail")
+- Valid email address (e.g. "validuser@gmail.com")
+
+**Severity:**
+- Medium
+
+**Priority:**
+- Medium
+
+**Note:**
+- The bug doesn't break the login process but it can block the user
