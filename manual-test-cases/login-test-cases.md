@@ -19,6 +19,11 @@ Test Type: Manual Testing
 - User should be logged in successfully
 - User should be redirected to the homepage
 
+**Test Data:**
+- Valid registered email
+- Valid password
+
+
 **Status:** Not Executed
 
 
@@ -35,6 +40,10 @@ Test Type: Manual Testing
 **Expected Result:**
 - User should not be logged in
 - An error message should be displayed
+
+**Test Data:**
+- Valid registered email
+- Invalid password
 
 - **Status:** Not Executed
 
