@@ -1,6 +1,14 @@
+Trendyol Login – Bug Reports
+
+Application: Trendyol Web
+Module: Login
+Test Type: Manual Testing
+
 ## Bug-01
 
 **Title:** Error message persists after entering a valid email on login page
+
+**Status:** Open
 
 **Environment:**
 - Browser: Google Chrome 143.0.7499.194
@@ -8,6 +16,9 @@
 
 **Precondition:**
 - User is on the Trendyol login page
+
+**Linked Test Case:**
+- TC-04: Login attempt with invalid email
 
 **Steps to Reproduce:**
 1. Enter an invalid email address (e.g. "test@gmail")
@@ -18,19 +29,20 @@
 **Actual Result:**
 - Error message remains displayed after entering a valid email, preventing the user from continuing
 
-
 **Expected Result:**
 - User should be able to continue after entering a valid email without receiving an error message
 
 **Test Data:**
-- Invalid email address (e.g. "test@gmail")
-- Valid email address (e.g. "validuser@gmail.com")
+- Invalid email address: "test@gmail"
+- Valid email address: "validuser@gmail.com"
 
-**Severity:**
-- Medium
-
-**Priority:**
-- Medium
+**Severity:** Medium  
+**Priority:** Medium  
 
 **Note:**
-- The bug doesn't break the login process but it can block the user
+- This bug report is created for learning and portfolio purposes.
+- The issue is based on realistic test scenarios and expected application behavior.
+ the user
+
+
+
