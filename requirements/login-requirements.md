@@ -45,3 +45,35 @@ Then the user should see an error message indicating that the email or password 
 
 **Note:** Acceptance Criteria are derived from observing the actual behavior of the Trendyol login page.
 
+
+
+### User Story-03: Login attempt with empty email field
+
+As a user  
+I want to get a validation message indicating that I should enter an email address when I try to log in without entering an email address  
+So that I can enter my email address and continue the login flow
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Login attempt with empty email field
+Given the user is on the login page
+When the user leaves the email input field empty  
+And clicks the "Devam et" button   
+Then the user should see an validation message indicating that an email address must be entered
+
+
+
+### User Story-04: Login attempt with invalid email
+
+As a user  
+I want to see a validation message when I try to log in with an invalid email address  
+So that I can correct my email address and continue the login process
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Login attempt with invalid email format  
+Given the user is on the login page  
+When the user enters an invalid email address  
+And clicks the "Devam Et" button  
+Then the user should see a validation message indicating that the email address format is invalid
+
