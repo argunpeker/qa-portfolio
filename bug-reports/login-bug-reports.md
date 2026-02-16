@@ -126,3 +126,43 @@ Bug Tracking Style: Jira (Manual)
 **Note:**
 - This bug report is created for learning and portfolio purposes.
 - The issue is based on realistic test scenarios and expected application behavior.
+
+
+
+## Bug-03 
+
+**Title:** Password reset email is not sent after entering a registered email
+
+**Status:** Open
+
+**Environment:**
+- Browser: Google Chrome 143.0.7499.194
+- OS: macOS
+
+**Precondition:**
+- User is on the Trendyol login page
+
+**Linked Test Case:**
+- TC-07: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
+
+**Steps to Reproduce:**
+1. Enter an email address that is associated with user account (e.g. "testing@gmail.com")
+2. Click on the "Devam Et" button
+3. Click on the ''Şifrenizi mi unuttunuz?'' button
+4. Click on the ''Şifremi Yenile'' button
+
+**Actual Result:**
+- User does not receive a password reset email despite seeing a confirmation message on the UI
+
+**Expected Result:**
+- User should receive an email to reset the password
+
+**Test Data:**
+- A registered email address: "testing@gmail.com"
+
+**Severity:** Medium  
+**Priority:** Medium  
+
+**Note:**
+- This bug report is created for learning and portfolio purposes.
+- The issue is based on realistic test scenarios and expected application behavior.
