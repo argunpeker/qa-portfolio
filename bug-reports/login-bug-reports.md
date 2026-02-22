@@ -73,6 +73,8 @@ Bug Tracking Style: Jira (Manual)
 
 **Expected Result:**
 - User should be redirected to the sign-up page to create a new account
+- The previously entered email address should be automatically filled in the email field of the sign-up form
+
 
 **Test Data:**
 - An unregistered email address: "test@gmail.com"
