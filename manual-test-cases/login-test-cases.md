@@ -134,7 +134,7 @@ Test Type: Manual Testing
   
 
 
-## TC-07: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
+## TC-07: Password reset request via "Şifrenizi mi unuttunuz?" option
 
 **Precondition:**
 - User is on the Trendyol login page
